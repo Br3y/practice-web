@@ -1,0 +1,114 @@
+/* Universal */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.container{
+    max-width:900px;
+    margin:0 auto;
+    padding:15px;
+}
+
+.info-section .container, .quote-section .container{
+    max-width:900px;
+}
+
+
+.navbar, .header, .footer{
+    background-color:#1F2937;
+}
+
+/* navbar */
+.navbar .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.navbar ul{
+    display:flex;
+    list-style-type: none;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.logo{
+    font-size:24px;
+    color:#F9FAF8;
+}
+
+ul li a{
+    font-size:18px;
+    color:#E5E7EB;
+    margin-left:24px;
+}
+
+/* Header */
+
+.header .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:48px;
+    padding:50px 15px;
+}
+.left-side{
+    margin-top: 30px;
+}
+.left-side h1{
+    font-size:48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+}
+.left-side p{
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.header img{
+    width:35%;
+}
+.header .button{
+    background-color:#3882F6;
+    color:#E5E7EB;
+    border-radius:5px;
+    margin-top:6px;
+    padding:6px 24px;
+}
+
+/* Info Section */
+
+.info-section h2{
+    text-align:center;
+    margin:24px 0px;
+}
+
+.info-section .container{
+    display:flex;
+    justify-content: center;   
+    align-items: center;
+    gap:24px;
+}
+
+.info-section img{
+    width:50%;
+    min-width: 150px;
+    border-radius:8px;
+    border:4px solid rgb(11, 171, 224);
+}
+
+.info-section .box{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
