@@ -51,7 +51,7 @@ ul li a{
 
 /* Header */
 
-.header .container{
+.header > .container{
     display:flex;
     justify-content:space-between;
     align-items:flex-start;
@@ -84,10 +84,13 @@ ul li a{
 }
 
 /* Info Section */
-
+.info-section{
+    height:100%;
+    margin:25px 0;
+}
 .info-section h2{
     text-align:center;
-    margin:24px 0px;
+    margin:inherit;
 }
 
 .info-section .container{
@@ -95,6 +98,7 @@ ul li a{
     justify-content: center;   
     align-items: center;
     gap:24px;
+    
 }
 
 .info-section img{
@@ -114,6 +118,7 @@ ul li a{
 /* Quotes */
 
 .quote-section{
+    padding:45px 0;
     background-color:#E5E7EB;
 }
 .quote-section p{
